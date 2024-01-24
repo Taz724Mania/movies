@@ -1,14 +1,12 @@
-
+import Projects from './Projects'
 
 
 const Main = () => {
     return(
         <div className="Main">
-            The Main
+            <Projects />
         </div>
     )
 }
 
 export default Main
-
-
