@@ -1,10 +1,45 @@
-.Header {
-  background-color: aqua;
+@font-face {
+  font-family: "Space Font";
+  src: url('./fonts/sofachrome/sofachrome\ rg.otf');
+}
+
+* {
+  background-image: url('./images/andy-holmes-rCbdp8VCYhQ-unsplash.jpg');
+  font-family: 'Space Font';
+  color: #a7adba;
+}
+
+.github {
+  color: #7752FE;
+}
+
+.linked {
+  color: #0077b5;
+}
+
+.title {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  margin-top: 2%;
   display: flex;
   justify-content: center;
   justify-content: space-around;
 }
 
-a {
-  color: black;
+
+.P1, .P2 {
+  margin-top: 10.5%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 46%;
 }
