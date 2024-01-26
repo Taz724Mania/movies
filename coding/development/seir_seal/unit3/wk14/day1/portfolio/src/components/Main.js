@@ -1,4 +1,5 @@
 import Projects from './Projects'
+import ProjectInfo from '../projectInfo'
 
 
 const Main = () => {
