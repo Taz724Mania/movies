@@ -1,14 +1,38 @@
 
-import films from './movies'
 import Movies from './components/Movies'
 
+const App = () => {
 
-const App = (props) => {
+  const movies = [
+    {name: 'Resident Evil',
+    year: '2002',
+    rating: 'R',},
+
+    {name: 'Practical Magic',
+    year: '1998',
+    rating: 'PG-13',},
+
+    {name: 'Spirited Away',
+    year: '2003',
+    rating: 'PG',},
+
+    {name: `Devil's Advocate` ,
+    year: '1997',
+    rating: 'R',},
+
+    {name: 'Dungeons and Dragons',
+    year: '2000',
+    rating: 'PG-13',},
+
+  ]
+
 
   return (
-    
-      films.map(v => <Movies name={v.name} year={v.year} rating={v.rating} img={v.image}/>)
-    
+    <div className="App">
+
+      <Movies movies={movies}/>
+
+    </div>
   );
 }
 
